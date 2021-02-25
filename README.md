@@ -19,22 +19,78 @@ psql university -f ./db/test.sql
 
 ![Diagram 1](images/Situation1.PNG)
 
+```sql
+CREATE TABLE professors (
+    ssn int
+);
+
+CREATE TABLE teaches (
+    ssn int,
+    courseid int,
+    semesterid int
+);
+
+CREATE TABLE courses (
+    courseid int
+);
+```
+
 ### Situation 2
 
 ![Diagram 2](images/Situation2.PNG)
+
+```sql
+CREATE TABLE professors (
+    ssn int
+);
+
+CREATE TABLE teaches (
+    ssn int,
+    courseid int,
+    semesterid int
+);
+
+CREATE TABLE courses (
+    courseid int
+);
+```
 
 ### Situation 3
 
 ![Diagram 3](images/Situation3.PNG)
 
+```sql
+CREATE TABLE professors (
+    ssn int
+);
+
+CREATE TABLE teaches (
+    ssn int,
+    courseid int,
+    semesterid int
+);
+
+CREATE TABLE courses (
+    courseid int
+);
+```
+
 ### Situation 4
 
 ![Diagram 4](images/Situation4.PNG)
 
-### Situation 5
+```sql
+CREATE TABLE professors (
+    ssn int
+);
 
-![Diagram 5](images/Situation5.PNG)
+CREATE TABLE teaches (
+    ssn int,
+    courseid int,
+    semesterid int
+);
 
-### Situation 6
-
-![Diagram 6](images/Situation6.PNG)
+CREATE TABLE courses (
+    courseid int
+);
+```
