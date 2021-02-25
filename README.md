@@ -25,15 +25,18 @@ CREATE TABLE professors (
     PRIMARY KEY (ssn)
 );
 
+CREATE TABLE courses (
+    courseid int,
+    PRIMARY KEY (courseid)
+);
+
 CREATE TABLE teaches (
     ssn int,
     courseid int,
     semesterid int,
-    PRIMARY KEY (ssn, courseid)
-);
-
-CREATE TABLE courses (
-    courseid int
+    PRIMARY KEY (ssn, courseid),
+    FOREIGN KEY (ssn) REFERENCES professors,
+    FOREIGN KEY (courseid) REFERENCES courses
 );
 ```
 
@@ -47,15 +50,18 @@ CREATE TABLE professors (
     PRIMARY KEY (ssn)
 );
 
+CREATE TABLE courses (
+    courseid int,
+    PRIMARY KEY (courseid)
+);
+
 CREATE TABLE teaches (
     ssn int,
     courseid int,
     semesterid int,
-    PRIMARY KEY (ssn, courseid)
-);
-
-CREATE TABLE courses (
-    courseid int
+    PRIMARY KEY (ssn, courseid),
+    FOREIGN KEY (ssn) REFERENCES professors,
+    FOREIGN KEY (courseid) REFERENCES courses
 );
 ```
 
@@ -69,15 +75,18 @@ CREATE TABLE professors (
     PRIMARY KEY (ssn)
 );
 
+CREATE TABLE courses (
+    courseid int,
+    PRIMARY KEY (courseid)
+);
+
 CREATE TABLE teaches (
     ssn int,
     courseid int,
     semesterid int,
-    PRIMARY KEY (ssn, courseid)
-);
-
-CREATE TABLE courses (
-    courseid int
+    PRIMARY KEY (ssn, courseid),
+    FOREIGN KEY (ssn) REFERENCES professors,
+    FOREIGN KEY (courseid) REFERENCES courses
 );
 ```
 
@@ -91,14 +100,17 @@ CREATE TABLE professors (
     PRIMARY KEY (ssn)
 );
 
+CREATE TABLE courses (
+    courseid int,
+    PRIMARY KEY (courseid)
+);
+
 CREATE TABLE teaches (
     ssn int,
     courseid int,
     semesterid int,
-    PRIMARY KEY (ssn, courseid)
-);
-
-CREATE TABLE courses (
-    courseid int
+    PRIMARY KEY (ssn, courseid),
+    FOREIGN KEY (ssn) REFERENCES professors,
+    FOREIGN KEY (courseid) REFERENCES courses
 );
 ```
