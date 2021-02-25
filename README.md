@@ -21,13 +21,15 @@ psql university -f ./db/test.sql
 
 ```sql
 CREATE TABLE professors (
-    ssn int
+    ssn int,
+    PRIMARY KEY (ssn)
 );
 
 CREATE TABLE teaches (
     ssn int,
     courseid int,
-    semesterid int
+    semesterid int,
+    PRIMARY KEY (ssn, courseid)
 );
 
 CREATE TABLE courses (
