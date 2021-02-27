@@ -21,15 +21,49 @@ c)
 ![A2](images/A2.PNG)
 
 ### A3: Algèbre relationnelle
-a)
+a) 
+
+![aA3](images/aA3.PNG)
+
 b)
+
+![bA3](images/bA3.PNG)
 
 ## Partie B: SQL
 
 ### B1: Lecture de requêtes SQL
 a)
+
+|name|experience|
+|---|---|
+|andrew|3|
+|august|1|
+|hayden|2|
+
 b)
+
+|name|released_date|
+|---|---|
+|MS Word|2011-01-20|
+|Sketch|2016-06-15|
+
 c)
+
+La requête ne s'exécute pas parce qu'il manque "users_2019.id" dans la déclaration `GROUP BY`.
+
+```sql
+WITH users_2019 (id, name) AS
+  (SELECT *
+   FROM users
+   WHERE join_date BETWEEN '2019-01-01' AND '2019-12-31')
+SELECT id, 
+       name,
+       count(licenses.access_code) AS num 
+FROM users_2019
+LEFT JOIN licenses ON licenses.user_id = id
+GROUP BY id, name
+ORDER BY num DESC;
+```
 
 ### B2: Ecriture de requêtes SQL
 a)
