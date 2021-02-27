@@ -109,7 +109,7 @@ SET version = '51', released_date = '2020-01-01'
 WHERE name = 'Sketch'
 ```
 
-### B3: Mise à jour le schéma SQL
+### B3: Mise à jour des schémas SQL
 a)
 b)
 c)
