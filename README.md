@@ -17,6 +17,9 @@ c)
 ![cA1](images/cA1.PNG)
 
 ### A2: Conception du système
+
+![A2](images/A2.PNG)
+
 ### A3: Algèbre relationnelle
 a)
 b)
