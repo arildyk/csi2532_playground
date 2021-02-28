@@ -111,18 +111,20 @@ WHERE name = 'Sketch'
 ### B3: Mise à jour des schémas SQL
 a)
 
-20200227031110-software-version.sql
 ```sql
+BEGIN;
 ALTER TABLE licenses
 ADD software_version date;
+COMMIT;
 ```
 
 b)
 
-20200227031258-update-softwares.sql
 ```sql
+BEGIN;
 ALTER TABLE softwares DROP CONSTRAINT softwares_pkey;
 ALTER TABLE softwares ADD PRIMARY KEY (name,version);
+COMMIT;
 ```
 
 c)
