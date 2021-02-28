@@ -121,8 +121,8 @@ b)
 
 20200227031258-update-softwares.sql
 ```sql
-ALTER TABLE softwares
-ADD PRIMARY KEY(name, version);
+ALTER TABLE softwares DROP CONSTRAINT softwares_pkey;
+ALTER TABLE softwares ADD PRIMARY KEY (name,version);
 ```
 
 c)
