@@ -128,4 +128,11 @@ COMMIT;
 ```
 
 c)
+
+```sql
+BEGIN;
+ALTER TABLE licenses DROP CONSTRAINT licenses_pkey;
+COMMIT;
+```
+
 d)
