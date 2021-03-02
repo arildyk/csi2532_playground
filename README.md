@@ -68,4 +68,35 @@ ORDER BY date_of_birth ASC;
 ```
 
 d)
+```sql
+INSERT INTO concerts
+VALUES ('Drake 2', 'GNAG', '2021-04-02');
 ```
+
+e)
+```sql
+DELETE FROM concerts 
+WHERE name = 'Jonas Brothers'
+```
+
+f)
+```sql
+UPDATE concerts
+SET concert_date = '2021-03-05'
+WHERE name = 'Billie Eilish'
+```
+
+### A3: Diagramme relationnel
+![A3](images/A3.PNG)
+
+## Partie B: Système aérienne Airline System
+
+### B1: Modélisation E-R
+
+![A3](images/B1.PNG)
+
+### B2: Algèbre relationnelle
+
+a)
+
+b)
