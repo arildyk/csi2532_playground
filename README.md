@@ -99,4 +99,12 @@ WHERE name = 'Billie Eilish'
 
 a)
 
+![B2a](images/B2a.PNG)
+
 b)
+
+![B2b](images/B2b.PNG)
+
+## Partie C: Service de streaming
+
+![C](images/C.PNG)
