@@ -1,2 +1,7 @@
-Arild Yonkeu Tchana
-300123590
+# Lab 7
+
+## E1
+
+## E2
+
+## E3
