@@ -43,4 +43,13 @@ VALUES
     (37, 'Lisa Leslie', 'lleslie@gmail.com', '1972-07-07', 'United States', 'F'),
     (38, 'Arike Ogunbowale', 'aogunbowale@gmail.com', '1997-03-02', 'United States', 'F'),
     (39, 'Chiney Ogwumike', 'cogwumike@gmail.com', '1992-03-21', 'United States', 'F'),
-    (40, 'Becky Hammon', 'bhammon@gmail.com', '1977-03-11', 'United States', 'F'),
+    (40, 'Becky Hammon', 'bhammon@gmail.com', '1977-03-11', 'United States', 'F');
+
+INSERT INTO competitions
+    (competition_id, name, venue, competition_date, competition_end_date)
+VALUES
+    (1, '3 Point Contest', 'Ottawa', '2021-02-23 19:00:00', '2021-02-23 20:00:00'),
+    (2, 'Penalty Kicks', 'Brampton', '2021-02-23 18:00:00', '2021-02-23 19:00:00'),
+    (3, 'All-Star Game (Soccer)', 'Montréal', '2021-02-24 19:00:00', '2021-02-24 20:00:00'),
+    (4, 'All-Star Game (Basketball)', 'Montréal', '2021-02-23 19:00:00', '2021-02-23 20:00:00'),
+    (5, 'Dunk Contest', 'Toronto', '2021-02-23 20:00:00', '2021-02-23 21:00:00');

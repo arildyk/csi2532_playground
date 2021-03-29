@@ -7,7 +7,7 @@ CREATE TABLE athletes (
     gender varchar(1)
 );
 
-CREATE TABLE competition (
+CREATE TABLE competitions (
     competition_id integer,
     name varchar(30),
     venue varchar(50),
