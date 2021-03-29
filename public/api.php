@@ -41,3 +41,4 @@ if ($auth == false) {
     echo "error: Invalid token.";
     return http_response_code(401);
 }
+?>
