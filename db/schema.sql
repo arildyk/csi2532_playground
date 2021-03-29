@@ -3,7 +3,7 @@ CREATE TABLE athletes (
     name varchar(20),
     email varchar(50),
     date_of_birth date,
-    nationality varchar(20),
+    nationality varchar(50),
     gender varchar(1)
 );
 

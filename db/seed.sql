@@ -19,6 +19,9 @@ VALUES
     (15,'Hakeem Olajuwon', 'holajuwon@gmail.com', '1963-01-21', 'Nigeria', 'M'),
     (16,'Giannis Antetokounmpo', 'gante@gmail.com', '1994-12-06', 'Greece', 'M'),
     (17,'Luka Dončić', 'ldoncic@gmail.com', '1999-02-28', 'Slovenia', 'M'),
-    (18,'Lionel Messi', 'lionelmessi@gmail.com', '1987-06-02', 'Argentina', 'M'),
-    (19,'Lionel Messi', 'lionelmessi@gmail.com', '1987-06-02', 'Argentina', 'M'),
-    (20,'Lionel Messi', 'lionelmessi@gmail.com', '1987-06-02', 'Argentina', 'M'),
+    (18,'Nikola Jokić', 'njokic@gmail.com', '1995-02-19', 'Serbia', 'M'),
+    (19,'Joel Embiid', 'jembiid@gmail.com', '1994-03-16', 'Cameroon', 'M'),
+    (20,'Dikembe Mutombo', 'dmutombo@gmail.com', '1966-06-25', 'Democratic Republic of the Congo', 'M'),
+
+    --Women
+    
