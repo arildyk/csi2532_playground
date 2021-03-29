@@ -29,3 +29,9 @@ INSERT INTO schema_migrations
 VALUES
   ('20200202110100-create-migrations.sql'),
   ('20200202110200-create-actions.sql');
+
+CREATE TABLE clients (
+  client_name varchar(64),
+  client_token varchar(64),
+  client_data varchar(64)
+);
