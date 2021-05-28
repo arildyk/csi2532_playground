@@ -22,6 +22,7 @@ b)
 {NIN, contractNo}
 ```
 c)
+
 |NIN|contractNo|hoursPerWeek|
 |---|---|---|
 |113567WD|C1024|16|
